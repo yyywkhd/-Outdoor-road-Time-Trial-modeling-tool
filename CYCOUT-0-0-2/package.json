@@ -1,0 +1,27 @@
+{
+  "name": "cycout-0-0-2",
+  "version": "1.0.0",
+  "description": "starter for CYCOUT5 project",
+  "main": "server",
+  "scripts": {
+    "server-install": "cd server && npm install && cd ..",
+    "client-install": "cd client && npm install && cd ..",
+    "start": "nodemon server/bin/www",
+    "server": "nodemon server/bin/www",
+    "client": "npm start --prefix client",
+    "install": "npm run server-install && npm run client-install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build && cd .. && cp -r client/build/* server/public"
+  },
+  "author": "Dong Wang",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "jquery": "^3.6.1",
+    "query-remote-tiles": "^0.1.4",
+    "react-slideshow-image": "^4.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,26 @@
+doctype html
+html
+head
+title=title
+//- form(method='get' action='/gpx/get_track')
+//-     input(type='int' name='track_id')
+//-     input(type='submit' value='Add')
+body
+    p next point id is #{id}
+    p next track id is#{trk_id}
+
+
+
+    //- table
+    //-     thead
+    //-         tr
+    //-         - list = [ "trk_index","wpt","pt_long","pt_lat"]
+    //-         each item in list
+    //-             th= item
+    //-     tbody
+    //-         each item in trk_pt
+    //-             tr
+    //-                 th(contenteditable='true') #{item .trk_index }
+    //-                 th(contenteditable='true') #{item .wpt }
+    //-                 th(contenteditable='true') #{item .pt_long }
+    //-                 th(contenteditable='true') #{item .pt_lat }

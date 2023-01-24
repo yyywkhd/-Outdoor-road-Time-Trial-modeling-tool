@@ -1,0 +1,54 @@
+doctype html
+html
+head
+title=title
+body
+
+    form(method='post' action='bikeAdd')
+        input(type='number' name='althlete_id')
+        input(type='text' name='bike_name')
+        input(type='number' name='bike_weight')
+        input(type='text' name='bike_components')
+        input(type='text' name='front_wheel_type')
+        input(type='number' name='front_wheel_width')
+        input(type='text' name='tire_type')
+        input(type='text' name='tube_type')
+        input(type='text' name='racing_pos')
+        input(type='text' name='helmet_type')
+        input(type='text' name='climbing_pos')
+        input(type='number' name='rolling_resis')
+        input(type='number' name='mecha_loss')
+        input(type='submit' value='Add')
+
+    table
+        thead
+            tr
+            - list = [ "bike_id", "althete_id", "bike_name", "bike_weight", "bike_components" ,"front_wheel_type", "front_wheel_width", "tire_type", "tube_type", "racing_pos","helmet_type", "climbing_pos", "rolling_resis", "mecha_loss",]
+            each item in list
+                th= item
+        tbody
+            each item in bike
+                tr
+                    th(contenteditable='true') #{item .bike_id }
+                    th(contenteditable='true') #{item .althlete_id }
+                    th(contenteditable='true') #{item .bike_name }
+                    th(contenteditable='true') #{item .bike_weight }
+                    th(contenteditable='true') #{item .bike_components }
+                    th(contenteditable='true') #{item .front_wheel_type }
+                    th(contenteditable='true') #{item .front_wheel_width }
+                    th(contenteditable='true') #{item .tire_type }
+                    th(contenteditable='true') #{item.tube_type }
+                    th(contenteditable='true') #{item.racing_pos }
+                    th(contenteditable='true') #{item.helmet_type }
+                    th #{item.climbing_pos}
+                    th( class= 'birth') #{item.rolling_resis }
+                    th #{item.mecha_loss }
+                    th
+                        //a(href='/edit?bike_id=' + item.bike_id+ item.althlete_id+item .bike_components) edit
+                        a(href='/delete?bike_id=' + item.bike_id) Delete
+
+
+
+
+
+

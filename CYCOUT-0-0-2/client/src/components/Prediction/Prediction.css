@@ -1,0 +1,73 @@
+/*============================RACE OVERVIEW=========================== */
+.RaceOverview {
+  background-color: #f0f2f5;
+}
+
+.RaceTitle {
+  padding: 8px 0;
+  background-color: #f0f2f5;
+}
+
+.RaceTable {
+  background-color: white;
+  border-color: grey;
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 2px;
+  font-size: 14px;
+}
+
+.RaceTable > tbody > tr > th {
+  padding: 10px;
+}
+
+.RaceTable > tbody > tr {
+  border-bottom: 0.1px solid rgb(201, 201, 201);
+}
+
+/* ============================PREDICTION BOX=========================== */
+.PredictionBox {
+  background-color: antiquewhite;
+  margin: 10px;
+  height: 500px;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f2f5;
+}
+
+nav > ul > li {
+  float: left;
+  border-right: 1px solid #f0f2f5;
+}
+
+nav > ul > li > a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav > ul > li > button {
+  display: block;
+  color: white;
+  background-color: rgb(69, 130, 163);
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+}
+
+nav > ul > li > button:hover {
+  background-color: rgb(98, 157, 189);
+}
+
+.section {
+  height: 90%;
+  background-color: white;
+  border-top: 1px solid #cbcbcb;
+}

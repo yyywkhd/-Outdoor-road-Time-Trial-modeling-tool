@@ -1,0 +1,89 @@
+@import "~antd/dist/antd.css";
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.container {
+  margin-left: 100px;
+}
+
+.count {
+  font-size: 145px;
+  line-height: 125px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #3b3b3b;
+  font-weight: 300;
+}
+
+.count.myBikes {
+  background-color: #eacdff;
+}
+
+.count.myCourses {
+  background-color: #d9cdff;
+}
+
+.count.myRaces {
+  background-color: #cdd9ff;
+}
+
+.line {
+  margin-top: 50px;
+}
+
+i {
+  font-size: 50px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+  text-align: left;
+  color: #555555;
+}
+
+thead {
+  background-color: aliceblue;
+}
+
+.add {
+  padding: 10px;
+  float: right;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

@@ -1,0 +1,32 @@
+
+.upload-container-input {
+  height: 8rem;
+  border: 1px solid #6db4ee;
+  background: #ffffff;
+  outline: 2px dashed #deeaf5;
+  outline-offset: -10px;
+  padding: 60px 10px 10px 180px;
+  text-align: center !important;
+ 
+  content: "Click or drag file to this area to upload";
+  position: absolute;
+  width: 30rem;
+  height: 10rem;
+  align-items: center;
+
+  
+}
+
+.upload-btn {
+  align-items: center;
+  margin-top: 13rem;
+  margin-left: -25rem;
+}
+
+.upload-icon {
+ 
+  position: absolute;
+  padding-top: 2rem;
+ 
+  transform: translateX(4rem);
+}

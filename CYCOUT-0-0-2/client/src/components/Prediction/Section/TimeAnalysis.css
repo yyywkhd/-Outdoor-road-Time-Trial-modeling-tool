@@ -1,0 +1,35 @@
+.sliderbar_1{
+    float:left;
+    margin-left:50px;
+    display:inline;
+
+}
+
+.sliderbar_2{
+    float:left;
+    display:inline;
+    margin-left:50px;
+
+}
+
+.sliderbar_3{
+    float:left;
+    margin-left:50px;
+    display:inline;
+
+}
+
+
+.sliderbar_4{
+    float:left;
+    margin-left:50px;
+    display:inline;
+
+}
+
+.text_div{
+    margin-left:25px;
+    display: inline-block;
+
+    vertical-align: middle;
+}

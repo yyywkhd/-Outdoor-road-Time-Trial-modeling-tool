@@ -1,0 +1,14 @@
+body{
+  background:#eeeeee;
+}
+.iconWrapper {
+  /* align-items: center; */
+  margin: 3rem;
+}
+.contentWrapper{
+  margin: 2rem;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+ 
+}

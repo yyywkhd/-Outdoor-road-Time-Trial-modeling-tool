@@ -1,0 +1,119 @@
+.login_image {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.Login_content {
+  /* position: relative; */
+  /* background-color: white; */
+  background-color: rgba(255, 255, 255, 0.283);  
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  /* top: 430px;
+  left: 450px; */
+  /* transform: translate(-50%, -50%); */
+  width: 500px !important;
+  height: 550px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 100px; */
+}
+
+.Login_form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login_box {
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+
+.Social_box {
+  margin-bottom: 0.5rem;
+  width: 70%;
+  align-items: center;
+}
+.Login_title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  /* color: rgb(49, 49, 49); */
+  color: #fff;
+  font-weight: 800;
+}
+
+.Login_label {
+  font-size: 14px;
+  font-weight: 600;
+  /* color: rgb(34, 34, 34); */
+  color: #fff;
+}
+
+.Login_input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.Login_btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #002c58;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* social media icon */
+Button.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.facebook {
+  background-color: #427cf1;
+}
+
+.twitter {
+  background-color: #21aaff;
+}
+
+.google {
+  background-color: #ff4e3e;
+}
+
+hr.line {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #2a2a2a;
+  height: 2px;
+  margin: 16px;
+}
+
+.login_page{
+  padding:100px;
+  background: rgb(0,36,69);
+  background: linear-gradient(90deg, rgba(0,36,69,1) 50%, rgba(103,88,135,1) 100%);
+}
