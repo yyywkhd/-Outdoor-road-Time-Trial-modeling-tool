@@ -21,7 +21,6 @@
     <td align="center"><a href="https://github.cs.adelaide.edu.au/a1808469"><img src="https://avatars.github.cs.adelaide.edu.au/u/2664" width="100px;" alt=""/><br /><sub><b>Mong Yuan Sim</b></sub></a><br /><a href="https://github.cs.adelaide.edu.au/a1808469" title="Frontend">💻</a></td>
      <td align="center"><a href="https://github.cs.adelaide.edu.au/a1810054"><img src="https://avatars.github.cs.adelaide.edu.au/u/3093" width="100px;" alt=""/><br /><sub><b>Ziqi Zhang</b></sub></a><br /><a href="https://github.cs.adelaide.edu.au/a1810054" title="Frontend">💻</a></td>
      <td align="center"><a href="https://github.cs.adelaide.edu.au/a1793295"><img src="https://avatars.github.cs.adelaide.edu.au/u/3108" width="100px;" alt=""/><br /><sub><b>Hyun Ji Moon</b></sub></a><br /><a href="https://github.cs.adelaide.edu.au/a1793295" title="Frontend">💻</a></td>
-    
      <td align="center"><a href="https://github.com/yyywkhd/yyywkhd"><img src="https://avatars.github.cs.adelaide.edu.au/u/3040" width="100px;" alt=""/><br /><sub><b>Peiyan Chen</b></sub></a><br /><a href="https://github.com/yyywkhd/yyywkhd" title="Frontend">💻</a></td>
   </tr>
   <tr>
