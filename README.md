@@ -1,4 +1,4 @@
-# Welcome to our amazing final year project
+# Welcome to our project
 
 ## The following link is our video demo.
 
