@@ -2,7 +2,7 @@
 
 ## The following link is our video demo.
 
-[:rocket: Video presentation](https://cycout5.com/)
+[:rocket: Video presentation](https://www.youtube.com/watch?v=63Ak19Mb3ck)
 
 [:rocket: Process presentation](https://www.youtube.com/watch?v=Z9jNr-WOodQ)
 
