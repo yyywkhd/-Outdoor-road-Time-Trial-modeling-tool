@@ -2,9 +2,11 @@
 
 ## The following link is our video demo.
 
-[:rocket: Video presentation](https://www.youtube.com/watch?v=63Ak19Mb3ck)
+#### :rocket: Video presentation
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/63Ak19Mb3ck/0.jpg)](https://www.youtube.com/watch?v=63Ak19Mb3ck)
 
-[:rocket: Process presentation](https://www.youtube.com/watch?v=Z9jNr-WOodQ)
+#### :rocket: Process presentation
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Z9jNr-WOodQ/0.jpg)](https://www.youtube.com/watch?v=Z9jNr-WOodQ)
 
 ## Meet our friendly team ✨
 
